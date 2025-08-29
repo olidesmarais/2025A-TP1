@@ -1,4 +1,7 @@
 # TP1 : Exercices d’introduction à Python
+
+📅 **Date de remise : 21 Septembre à 23:59**
+
 Bienvenue dans cette série de cinq exercices Python pour votre TP1! Vous trouverez ci-dessous la description de chaque exercice. 
 
 ⚠️ Assurez-vous de respecter exactement les formats d’entrée et de sortie demandés (y compris l’orthographe, la ponctuation et les espaces), car un script de tests automatisés va aider à valider vos solutions.
@@ -207,4 +210,64 @@ Il existe une combinaison sur-couvrante moins chère : A, B, C : PPP.PP$ (surplu
 - test.py – script de tests automatisés pour valider vos solutions (simule des entrées utilisateur et compare les sorties du programme aux résultats attendus). Veillez à créer chacun des fichiers exo1.py à exo5.py et à y écrire votre code conformément aux consignes ci-dessus. Une fois terminé, vous pouvez exécuter test.py pour vérifier automatiquement la conformité de vos programmes.
 
 
-Bonne programmation !
+# Directives pour la remise
+
+Pour remettre votre travail, vous devez créer un fichier **zip** nommé : XXXXX_YYYYY-PR01.zip
+
+où **XXXXX** est votre nom de famille et **YYYYY** votre prénom.  
+
+Ce fichier zip devra contenir **tous les fichiers `.py` du TP** (`exo1.py` à `exo5.py`).  
+
+➡️ Votre fichier zip est à remettre dans la boîte de remise sur **Moodle** prévue à cet effet, **le 21 Septembre à 23:59**.
+
+# Barème de correction
+
+Le barème de correction est le suivant :  
+
+| Partie | Tâche | Points |
+|--------|-------|--------|
+| **Exercice 1 : Usage hebdomadaire du métro ** | | **/3** |
+| 1.1 | Lecture du nom complet (avec `input`) | 0.5 |
+| 1.2 | Lecture du nombre de déplacements par semaine (cast en entier) | 0.5 |
+| 1.3 | Calcul correct du nombre annuel (`52 * déplacements`) | 1 |
+| 1.4 | Affichage correct du message de bienvenue avec le nom | 0.5 |
+| 1.5 | Affichage correct de la phrase complète avec le nombre annuel | 0.5 |
+| **Exercice 2 : Taux d’occupation d’un bus 🚌** | | **/4** |
+| 2.1 | Lecture du pourcentage avec `input` | 0.5 |
+| 2.2 | Vérification validité de l’entrée (0 ≤ taux ≤ 100) | 0.5 |
+| 2.3 | Construction correcte de la barre avec ❚ et espaces | 1 |
+| 2.4 | Arrondi du nombre de blocs à la dizaine près | 0.5 |
+| 2.5 | Affichage de la barre + du pourcentage | 0.5 |
+| 2.6 | Gestion de l’erreur « Erreur : taux d'occupation invalide. » | 1 |
+| **Exercice 3 : Marcher ou attendre le bus ? 🚶‍♂️🚌** | | **/4** |
+| 3.1 | Lecture de la distance (float) et du temps d’attente (int) | 0.5 |
+| 3.2 | Calcul du temps de marche (vitesse 5 km/h) | 0.5 |
+| 3.3 | Calcul du temps de bus (20 km/h + attente) | 0.5 |
+| 3.4 | Comparaison correcte des durées | 1 |
+| 3.5 | Affichage du bon message (« marcher », « bus », ou égalité) | 1.5 |
+| **Exercice 4 : Hauteur atteinte par un escalier mécanique ** | | **/4** |
+| 4.1 | Lecture de la longueur (float) et de l’angle (float) | 0.5 |
+| 4.2 | Conversion de l’angle en radians (via `math.radians`) | 0.5 |
+| 4.3 | Application correcte de la formule H = L × sin(θ) | 1 |
+| 4.4 | Résultat arrondi à 2 décimales | 0.5 |
+| 4.5 | Affichage correct (avec « m » à la fin) | 0.5 |
+| 4.6 | Gestion des entrées invalides (affichage du message d’erreur) | 1 |
+| **Exercice 5 : Répartition optimale des titres ** | | **/5** |
+| 5.1 | Lecture du nombre de trajets (int) | 0.5 |
+| 5.2 | Calcul correct du nombre de carnets de 30 | 1 |
+| 5.3 | Calcul correct du nombre de carnets de 10 | 1 |
+| 5.4 | Calcul correct des billets simples | 0.5 |
+| 5.5 | Calcul du prix total avec formatage à 2 décimales | 1 |
+| 5.6 | Affichage correct des 4 lignes demandées (ordre exact) | 1 |
+| **Total** |  | **/20** |
+
+---
+
+🎯 **Question bonus** :  
+- Vérification d’une combinaison sur-couvrante moins chère  
+- Affichage du message additionnel avec le surplus de trajets  
+*(+1 pt bonus)*  
+
+---
+
+Bonne programmation !
