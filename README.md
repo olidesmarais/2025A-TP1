@@ -226,7 +226,7 @@ Le barème de correction est le suivant :
 
 | Partie | Tâche | Points |
 |--------|-------|--------|
-| **Exercice 1 : Usage hebdomadaire du métro ** | | **/3** |
+| **Exercice 1 : Usage hebdomadaire du métro 🚇** | | **/3** |
 | 1.1 | Lecture du nom complet (avec `input`) | 0.5 |
 | 1.2 | Lecture du nombre de déplacements par semaine (cast en entier) | 0.5 |
 | 1.3 | Calcul correct du nombre annuel (`52 * déplacements`) | 1 |
@@ -245,14 +245,14 @@ Le barème de correction est le suivant :
 | 3.3 | Calcul du temps de bus (20 km/h + attente) | 0.5 |
 | 3.4 | Comparaison correcte des durées | 1 |
 | 3.5 | Affichage du bon message (« marcher », « bus », ou égalité) | 1.5 |
-| **Exercice 4 : Hauteur atteinte par un escalier mécanique ** | | **/4** |
+| **Exercice 4 : Hauteur atteinte par un escalier mécanique 🏗️** | | **/4** |
 | 4.1 | Lecture de la longueur (float) et de l’angle (float) | 0.5 |
 | 4.2 | Conversion de l’angle en radians (via `math.radians`) | 0.5 |
 | 4.3 | Application correcte de la formule H = L × sin(θ) | 1 |
 | 4.4 | Résultat arrondi à 2 décimales | 0.5 |
 | 4.5 | Affichage correct (avec « m » à la fin) | 0.5 |
 | 4.6 | Gestion des entrées invalides (affichage du message d’erreur) | 1 |
-| **Exercice 5 : Répartition optimale des titres ** | | **/5** |
+| **Exercice 5 : Répartition optimale des titres 🎟️** | | **/5** |
 | 5.1 | Lecture du nombre de trajets (int) | 0.5 |
 | 5.2 | Calcul correct du nombre de carnets de 30 | 1 |
 | 5.3 | Calcul correct du nombre de carnets de 10 | 1 |
