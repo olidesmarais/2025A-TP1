@@ -3,7 +3,7 @@
 Objectif :
 - DEMANDER longueur (m, float) et angle (° en degrés, float)
 - Valider : longueur >= 0 et 0 <= angle <= 90
-    -> sinon afficher "Erreur : données invalides."
+    -> sinon afficher "Erreur - données invalides."
 - Sinon : H = L * sin(radians(angle)) ; afficher avec 2 décimales : "{H:.2f} m"
 
 Prompts EXACTS à utiliser quand vous implémenterez input :
