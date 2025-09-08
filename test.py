@@ -67,37 +67,37 @@ tests = {
     "exo5.py": [
         {
             "input": "87\n",
-            "expected_base": ("Carnets de 30 billets : 2\n"
-                              "Carnets de 10 billets : 2\n"
-                              "Billets simples : 7\n"
-                              "Prix total : 236.25$\n"),
-            "expected_bonus": ("Carnets de 30 billets : 2\n"
-                               "Carnets de 10 billets : 2\n"
-                               "Billets simples : 7\n"
-                               "Prix total : 236.25$\n"
+            "expected_base": ("Carnets de 30 billets - 2\n"
+                              "Carnets de 10 billets - 2\n"
+                              "Billets simples - 7\n"
+                              "Prix total - 236.25$\n"),
+            "expected_bonus": ("Carnets de 30 billets - 2\n"
+                               "Carnets de 10 billets - 2\n"
+                               "Billets simples - 7\n"
+                               "Prix total - 236.25$\n"
                                "Il existe une combinaison sur-couvrante moins chère : 3, 0, 0 : 225.00$ (surplus : 3 trajet(s))\n")
         },
         {
             "input": "7\n",
-            "expected_base": ("Carnets de 30 billets : 0\n"
-                              "Carnets de 10 billets : 0\n"
-                              "Billets simples : 7\n"
-                              "Prix total : 26.25$\n"),
-            "expected_bonus": ("Carnets de 30 billets : 0\n"
-                               "Carnets de 10 billets : 0\n"
-                               "Billets simples : 7\n"
-                               "Prix total : 26.25$\n")  # pas de bonus plus avantageux ici
+            "expected_base": ("Carnets de 30 billets - 0\n"
+                              "Carnets de 10 billets - 0\n"
+                              "Billets simples - 7\n"
+                              "Prix total - 26.25$\n"),
+            "expected_bonus": ("Carnets de 30 billets - 0\n"
+                               "Carnets de 10 billets - 0\n"
+                               "Billets simples - 7\n"
+                               "Prix total - 26.25$\n")  # pas de bonus plus avantageux ici
         },
         {
             "input": "89\n",
-            "expected_base": ("Carnets de 30 billets : 2\n"
-                              "Carnets de 10 billets : 2\n"
-                              "Billets simples : 9\n"
-                              "Prix total : 243.75$\n"),
-            "expected_bonus": ("Carnets de 30 billets : 2\n"
-                               "Carnets de 10 billets : 2\n"
-                               "Billets simples : 9\n"
-                               "Prix total : 243.75$\n"
+            "expected_base": ("Carnets de 30 billets - 2\n"
+                              "Carnets de 10 billets - 2\n"
+                              "Billets simples - 9\n"
+                              "Prix total - 243.75$\n"),
+            "expected_bonus": ("Carnets de 30 billets - 2\n"
+                               "Carnets de 10 billets - 2\n"
+                               "Billets simples - 9\n"
+                               "Prix total - 243.75$\n"
                                "Il existe une combinaison sur-couvrante moins chère : 3, 0, 0 : 225.00$ (surplus : 1 trajet(s))\n")
         },
     ],
