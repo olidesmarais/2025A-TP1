@@ -7,10 +7,10 @@ Objectif :
     10 trajets -> 30.00$
      1 trajet  ->  3.75$
 - Afficher EXACTEMENT :
-    Carnets de 30 billets : X
-    Carnets de 10 billets : Y
-    Billets simples : Z
-    Prix total : TTT.TT$
+    Carnets de 30 billets - X
+    Carnets de 10 billets - Y
+    Billets simples - Z
+    Prix total - TTT.TT$
 
 BONUS (optionnel mais recommandé) :
 - Si une SUR-COUVERTURE (acheter un peu plus de trajets) est moins chère,
