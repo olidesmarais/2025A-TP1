@@ -60,8 +60,8 @@ tests = {
         {"input": "10\n90\n", "expected": "10.00 m\n"},
         {"input": "5\n0\n",   "expected": "0.00 m\n"},
         # validations demandées dans le README
-        {"input": "-1\n30\n",  "expected": "Erreur : données invalides.\n"},
-        {"input": "10\n120\n", "expected": "Erreur : données invalides.\n"},
+        {"input": "-1\n30\n",  "expected": "Erreur - données invalides.\n"},
+        {"input": "10\n120\n", "expected": "Erreur - données invalides.\n"},
     ],
     # Pour exo5, on accepte sans la ligne bonus si REQUIRE_BONUS_EXO5 = False
     "exo5.py": [
