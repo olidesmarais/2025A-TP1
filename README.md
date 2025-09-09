@@ -212,9 +212,9 @@ Il existe une combinaison sur-couvrante moins chère : A, B, C : PPP.PP$ (surplu
 
 # Directives pour la remise
 
-Pour remettre votre travail, vous devez créer un fichier **zip** nommé : XXXXX_YYYYY-PR01.zip
+Pour remettre votre travail, vous devez créer un fichier **zip** nommé : LXX-XX_TP1.zip
 
-où **XXXXX** est votre nom de famille et **YYYYY** votre prénom.  
+où **XX-XX** est le numero de votre groupe.  
 
 Ce fichier zip devra contenir **tous les fichiers `.py` du TP** (`exo1.py` à `exo5.py`).  
 
