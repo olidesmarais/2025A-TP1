@@ -238,7 +238,7 @@ Le barème de correction est le suivant :
 | 2.3 | Construction correcte de la barre avec ❚ et espaces | 1 |
 | 2.4 | Arrondi du nombre de blocs à la dizaine près | 0.5 |
 | 2.5 | Affichage de la barre + du pourcentage | 0.5 |
-| 2.6 | Gestion de l’erreur « Erreur : taux d'occupation invalide. » | 1 |
+| 2.6 | Gestion de l’erreur « Taux d'occupation invalide. » | 1 |
 | **Exercice 3 : Marcher ou attendre le bus ? 🚶‍♂️🚌** | | **/4** |
 | 3.1 | Lecture de la distance (float) et du temps d’attente (int) | 0.5 |
 | 3.2 | Calcul du temps de marche (vitesse 5 km/h) | 0.5 |
