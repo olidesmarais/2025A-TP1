@@ -120,7 +120,7 @@ for filename, cases in tests.items():
             if not ok:
                 all_ok = exercise_ok = False
                 print(f"[ÉCHEC] {filename} avec entrée {repr(case['input'])}:")
-                print("Attendu (base ou bonus) :", repr(base if out != bonus else bonus))
+                print("Attendu (base ou bonus) :", repr(base), "OU", repr(bonus))
                 print("Obtenu :", repr(out))
             continue
 
