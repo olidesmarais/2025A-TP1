@@ -84,7 +84,7 @@ Entrez le taux d'occupation d'un bus (en %): 304
 ```
 Sortie :
 ```python
-Erreur : taux d'occupation invalide.  
+Taux d'occupation invalide.  
 ```
 
 N.B. : Pour construire facilement la barre d’occupation, vous pouvez utiliser l’opérateur de multiplication sur les chaînes de caractères en Python. Par exemple, '❚' * 3 produit ❚❚❚.
