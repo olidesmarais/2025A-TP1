@@ -23,6 +23,6 @@ deplacement_hebdommadaire = int(input("Veuillez entrer le nombre de déplacement
 deplacements_annuels = deplacement_hebdommadaire * 52
 
 # TODO: Affichage des deux lignes EXACTES
-print("Bonjour " + nom_complet + "\nVous effectuez environ " + str(deplacements_annuels) + " déplacements par an sur le réseau STM. ")
+print("Bonjour " + nom_complet + "\nVous effectuez environ " + str(deplacements_annuels) + " déplacements par an sur le réseau STM.")
 
 
