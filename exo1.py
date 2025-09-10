@@ -14,14 +14,15 @@ Prompts (à utiliser quand vous implémenterez input) :
 
 
 # TODO: Lire le nom complet (str) avec le prompt EXACT
-
+nom_complet = input("Veuillez entrer votre nom complet : ")
 
 # TODO: Lire le nombre de déplacements par semaine (int) avec le prompt EXACT
-
+deplacement_hebdommadaire = int(input("Veuillez entrer le nombre de déplacements par semaine : "))
 
 # TODO: Calcul des déplacements annuels
-
+deplacements_annuels = deplacement_hebdommadaire * 52
 
 # TODO: Affichage des deux lignes EXACTES
+print("Bonjour " + nom_complet + "\nVous effectuez environ " + str(deplacements_annuels) + " déplacements par an sur le réseau STM. ")
 
 
