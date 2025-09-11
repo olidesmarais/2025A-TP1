@@ -25,7 +25,6 @@ if not(longueur >= 0 and 0 <= angle <= 90):
 
 # TODO: Calcul hauteur et affichage
 hauteur = longueur * math.sin(math.radians(angle))
-# print(hauteur, "m")
 print(f"{hauteur:.2f} m")
 
 
