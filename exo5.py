@@ -22,16 +22,23 @@ Prompt EXACT à utiliser quand vous implémenterez input :
 """
 
 # TODO: Lire n via input (prompt EXACT) et convertir en int
-
+nb_trajets = int(input("Entrez le nombre total de trajets à effectuer : "))
 
 # TODO: calculer la répartition exacte (30 -> 10 -> 1)
-
+carnet30 = nb_trajets // 30
+nb_trajets -= carnet30 * 30
+carnet10 = nb_trajets // 10
+nb_trajets -= carnet10 * 10
+billets_simple = nb_trajets
 
 # TODO: Calcul prix total
-
+prix = carnet30 * 75 + carnet10 * 30 + billets_simple * 3.75
 
 # TODO: Affichage des résultats de la répartition exacte (4 lignes)
-
+print("Carnets de 30 billets -", carnet30)
+print("Carnets de 10 billets -", carnet10)
+print("Billets simples -", billets_simple)
+print("Prix total - " + str(round(prix, 2)) + "$")
 
 # TODO: BONUS (optionnel)
 
