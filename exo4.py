@@ -12,14 +12,20 @@ Prompts EXACTS à utiliser quand vous implémenterez input :
 """
 
 # TODO: Importer la/les bibliothèques nécessaire(s)
-
+import math
 
 # TODO: Lire longueur et angle via input (prompts EXACTS) et convertir en float
-
+longueur = float(input("Entrez la longueur de l'escalier (en mètres) : "))
+angle = float(input("Entrez l'angle de l'escalier par rapport à l'horizontale (en degrés) : "))
 
 # TODO: Validation des entrées
-
+if not(longueur >= 0 and 0 <= angle <= 90):
+    print("Erreur - données invalides.")
+    exit()
 
 # TODO: Calcul hauteur et affichage
+hauteur = longueur * math.sin(math.radians(angle))
+# print(hauteur, "m")
+print(f"{hauteur:.2f} m")
 
 
